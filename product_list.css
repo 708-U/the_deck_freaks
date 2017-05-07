@@ -1,0 +1,68 @@
+body{
+    padding-top:33px;
+}
+main{
+    background-color: #f8f8f8;
+    padding-top: 40px;
+}
+.navbar,footer{
+    background-color: #193056;
+}
+.navbar-brand{
+    margin-bottom:4px;
+    margin-top: -4px;
+    margin-left: 6px;
+}
+.icon{
+    display: block;
+    width:32px
+}
+.icon-bar{
+    background-color: #f8f8f8;
+}
+.nav-item{
+    color:#f8f8f8;
+}
+.nav-h1{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    color: #373738;
+}
+.logo-bold{
+    font-style: italic;
+    font-weight: bold ;
+}
+.nav-header{
+    margin-top: -3px;
+    margin-bottom:-10px;
+}
+.list-msg{
+    text-align: center;
+    font-size: 24px;
+    color:#373738;
+    margin-top:0;
+    margin-bottom:50px;
+    text-shadow: -1px 1px 0 rgba(0,0,0,0.4);
+}
+.product-box{
+    border-radius: 4px;
+    box-shadow:0 1px 2px 1px rgba(0,0,0,0.3);
+}
+.login-form{
+    background-color: #193056;
+}
+.caption{
+    margin-top:45px;
+    text-align: center;
+    text-shadow: -1px 1px 0 rgba(0,0,0,0.2);
+}
+.caption:last-child{
+    margin-bottom:50px;
+}
+.copy{
+    margin-bottom:0;
+    line-height: 50px;
+    font-size: 14px;
+    color: #f8f8f8;
+}

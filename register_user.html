@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Deck freaks</title>
+    <!-- <link rel = "stylesheet" href = "html5reset-1.6.1.css"> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel = "stylesheet" href = "register_user.css">
+</head>
+<body>
+    <!-- <div class="row-fluid"> -->
+    <nav class="navbar  navbar-fixed-top">
+        <div class="container-fluid">
+    		<div class="navbar-header">
+        		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+    				<span class="sr-only">Toggle navigation</span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    			</button>
+    			<a class="navbar-brand " href="cart.html">
+                    <img alt ="Brand" class="icon" src = "./img/cart.png">
+                </a>
+    		</div>
+
+    		<div class="collapse navbar-collapse text-center" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a class = "nav-item" href="index.html">TOPページ</a></li>
+    				<li class="active"><a class = "nav-item" href="userinfo.html">ユーザー情報</a></li>
+                    <li class="active"><a class = "nav-item" href="login.html">ログイン</a></li>
+    				<li class="active"><a class = "nav-item" href="register_user.html">会員登録</a></li>
+                    <li class="active"><a class = "nav-item" href="product_list.html">商品一覧</a></li>
+    				<li class="active"><a class = "nav-item" href="purchase_history.html">購入履歴</a></li>
+    				<li class="active"><a class = "nav-item" href="customor_form.html">お問い合わせ</a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </nav>
+
+    <div class = "nav-header text-center">
+        <h1 class = "nav-h1">The <span class = "logo-bold">Deck</span> freaks</h1>
+    </div>
+
+    <main>
+        <div class="container">
+            <h1 class = "login-msg text-center">アカウント作成</h1>
+        </div>
+        <form>
+            <div class="container login-box">
+                <div class ="hat">
+                    <img class ="hat" src="./img/hat.png" alt="">
+                </div>
+                <div class="form-user-info">
+                    <div class="form-group ">
+                		<input type="text" class="form-control input-name" id="user_name" placeholder="ユーザーネーム">
+                		<input type="mail" class="form-control input-name" id="user_mail" placeholder="メールアドレス">
+                        <input type="password" class="form-control" id="user_pass" placeholder="パスワード">
+                	</div>
+                </div>
+                <!-- <input type = "submit" class ="btn btn-warning btn-block" value="新しいアカウントを作成"> -->
+                <a href = "welcome.html" class ="btn btn-warning btn-block">新しいアカウントを作成</a>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            <p class ="text-left copy">copyright</p>
+        </div>
+
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
