@@ -1,0 +1,110 @@
+body{
+    padding-top:33px;
+}
+main{
+    background-color: #f8f8f8;
+    padding: 40px 0 70px 0;
+    width:100%;
+}
+.navbar,footer{
+    background-color: #193056;
+}
+.navbar-brand{
+    margin-bottom:4px;
+    margin-top: -4px;
+    margin-left: 6px;
+}
+.icon{
+    display: block;
+    width:32px
+}
+.icon-bar{
+    background-color: #f8f8f8;
+}
+.nav-item{
+    color:#f8f8f8;
+}
+.nav-h1{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    color: #373738;
+}
+.logo-bold{
+    font-style: italic;
+    font-weight: bold ;
+}
+.login-msg{
+    color: #373738;
+    font-weight: 400;
+    margin-top: -15px;
+    margin-bottom: 25px;
+    text-shadow: -1px 1px 1px rgba(0,0,0,0.4);
+}
+.login-box{
+    max-width:550px;
+    padding: 25px 30px 60px 30px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow:0 1px 3px 1px rgba(0,0,0,0.2);
+}
+.hat{
+    width: 70px;
+    margin: 0 auto 10px auto;
+}
+.form-group{
+    padding: 20px;
+    background-color: #193056;
+    border-radius: 2px;
+    box-shadow:0 1px 1px 1px rgba(0,0,0,0.2);
+}
+.form-control{
+    border-radius: 2px;
+    box-shadow:0 1px 1px 1px rgba(0,0,0,0.2);
+}
+.input-name{
+    margin-bottom: 20px;
+}
+.input-lg{
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+.save-name{
+    font-size: 14px;
+    color: #373738;
+}
+.btn-warning{
+    color: #373738;
+    background-color: #FFD201;
+    border: none;
+    box-shadow:0 1px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    font-size: 20px;
+}
+.new-customer{
+    margin: 20px 0;
+    display: block;
+}
+.first-visit{
+    padding:10px 2px;
+}
+.line-first-visit{
+    display: block;
+    height: 14px;
+    width: 133px;
+    border-bottom: 1px solid gray;
+    margin-top:10px;
+    margin-bottom: -10px;
+}
+.nav-header{
+    margin-top: -3px;
+    margin-bottom:-10px;
+}
+.copy{
+    margin-bottom:0;
+    line-height: 50px;
+    font-size: 14px;
+    color: #f8f8f8;
+}

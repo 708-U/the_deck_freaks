@@ -2,9 +2,11 @@
 // データベースの接続情報
 define('DB_USER',   'root');
 define('DB_PASSWD', 'root');
-define('DNS', 'mysql:dbname=camp;host=localhost'); 
+// define('DB_USER',   'u708workplace');
+// define('DB_PASSWD', '');
+define('DNS', 'mysql:dbname=camp;host=localhost');
 
-define('TAX', 1.08);  // 消費税
+define('DEBUG', false);
 
-define('HTML_CHARACTER_SET', 'UTF-8');  // HTML文字エンコーディング
+define('HTML_CHARSET', 'utf-8');
 define('DB_CHARACTER_SET',   'UTF8');   // DB文字エンコーディング

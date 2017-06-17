@@ -1,0 +1,19 @@
+.nav-header,footer{
+    width : 100%;
+}
+main{
+    background-color: #f8f8f8;
+    /*padding: 40px 0 60px;*/
+}
+.logo-a{
+    color:#373738;
+}
+.logo-a:hover,.logo-a:active{
+    color:#373738;
+    text-decoration: none;
+}
+.cart-amount{
+    margin:-37px 11px 37px -11px;
+    background-color:#f4c800;
+    color: #f8f8f8;
+}
