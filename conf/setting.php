@@ -5,7 +5,7 @@ define('DB_PASSWD', 'root');
 // define('DB_USER',   'u708workplace');
 // define('DB_PASSWD', '');
 define('DNS', 'mysql:dbname=camp;host=localhost');
-
+define('IMG_DIR' , './img/.');
 define('DEBUG', false);
 
 define('HTML_CHARSET', 'utf-8');
