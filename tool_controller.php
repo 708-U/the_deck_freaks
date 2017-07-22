@@ -38,7 +38,7 @@ if($process_kind === 'change_product_info') {
 }
 
 if($process_kind === 'delete_product') {
-        $flg_delete = true;
+    $flg_delete = true;
 }
 
 
