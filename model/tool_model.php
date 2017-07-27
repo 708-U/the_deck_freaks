@@ -1,11 +1,12 @@
 <?php
 
 function get_post_product(){
-    $product_data = ['name'    => trimming(get_post_data('name')),
-                     'price'   => trimming(get_post_data('price')),
-                     'new_img' => trimming(get_img_name()),
-                     'status'  => trimming(get_post_data('status')),
-                     'stock'   => trimming(get_post_data('stock'))];
+    $product_data = [
+      'name'    => trimming(get_post_data('name')),
+      'price'   => trimming(get_post_data('price')),
+      'new_img' => trimming(get_img_name()),
+      'status'  => trimming(get_post_data('status')),
+      'stock'   => trimming(get_post_data('stock'))];
     return $product_data;
 }
 
@@ -105,7 +106,9 @@ function get_post_change(){
     $change_stock = get_post_data('change_stock');
     $product_id = get_post_data('id');
 
-    $change_product_data = ['name'=>$change_name, 'price'=>$change_price,'color'=>$change_color ,'status'=>$change_status,'stock'=>$change_stock,'id'=>$product_id];
+    $change_product_data =
+      ['name'=>$change_name, 'price'=>$change_price,'color'=>$change_color ,'status'=>$change_status,'stock'=>$change_stock,'id'=>$product_id
+      ];
     return $change_product_data;
 }
 
