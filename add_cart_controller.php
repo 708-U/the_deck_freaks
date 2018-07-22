@@ -37,7 +37,7 @@ else {
         $total_amount = calc_total_amount($cart_status);
 
     } catch (PDOException $e) {
-        echo '接続できませんでした。理由：'.$e->getMessage();
+        echo '接続エラー：'.$e->getMessage();
     }
 }
 
